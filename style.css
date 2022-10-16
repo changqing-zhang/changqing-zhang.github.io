@@ -54,7 +54,7 @@ buttons div 管理导航栏
 margin 表示的是一个button距离边界的距离
  */
 #buttons div {
-	width: 160px;
+	width: 153px;
 	float: right;
 	height: 40px;
 	text-align: center;
