@@ -1,0 +1,274 @@
+/*
+style.css: "simple icons" CSS file
+author: Nacho Llopis <lloptor@hotmail.com>
+date: 04/10/06
+license: you may use & modify this work.
+please keep it in www.oswd.org.
+*/
+body {
+	font-family: sans-serif;
+	font-size: 85%; 
+	text-align: center;
+	background-color: #ddd;
+	padding: 0;
+	color: #000;
+}
+img { border: 0; }
+
+#header {
+	background-color: #fff;
+	height: 5.5em;
+	}
+#header h1 { 	
+	margin: 0;
+	color: #000;
+	font-size: 1.8em;
+	font-weight: normal;
+	cursor: default;
+	}	
+#header h2 { 	
+	margin: 0;
+	color: #696969;
+	font-size: 1.1em;
+	padding-left: 1px;
+	cursor: default;
+	}	
+#header .sidebar {
+	position: relative;
+	clear:left;
+	float: left;
+	margin: -1em .5em 0 0;
+	padding: 0 0 0 0 ;
+	height: 180px;
+	
+	background-color:#aaa;
+}
+	
+#buttons {
+	margin: 55px;
+	width:  780px;
+	}
+/*
+buttons div 管理导航栏
+其中width 表示导航栏每一个选项的间距
+margin 表示的是一个button距离边界的距离
+ */
+#buttons div {
+	width: 160px;
+	float: right;
+	height: 40px;
+	text-align: center;
+	margin:2px;
+	}
+/*
+#buttons #s1 {
+	no-repeat 10% 10%;
+	border-right:2px dashed #ccc;
+	}
+
+#buttons #s2 {
+	no-repeat 50% 0%;
+	border-right:2px dashed #ccc;
+	}
+#buttons #s3 {
+	no-repeat 50% 0%;
+	border-right:2px dashed #ccc;
+	}
+#buttons #s4 {
+	no-repeat 50% 0%;
+	border-right:2px dashed #ccc;
+	}
+#buttons #s5 {
+	no-repeat 50% 0%;
+	}
+#buttons #s6 {
+	no-repeat 50% 0%;
+	}
+*/
+#buttons div a{
+	color: #332288;
+	font-size: 1.4em;
+	display: block;
+	padding: 10px 0px 0px 0px;
+	text-decoration:none;
+	}
+
+#buttons div a:hover{
+	color: #8D8Eff;
+	text-decoration: none;
+	}
+
+#buttons .selected{
+	text-decoration:underline;
+}
+
+#container {
+	background-color: #fff;
+	width: 920px;
+	padding: 20px 0 5px 20px;
+	text-align: left;
+	margin: 0 auto;
+}
+
+#rcontent {
+	display:block;
+	text-align: right;
+	clear:left;
+	float:left;
+	width: 780px;
+	background-color:#FFFFFF;
+	padding:15px  0px 0px 0px;
+}
+
+#content {
+	display:block;
+	clear:left;
+	float:left;
+	width: 890px;
+	background-color:#FFFFFF;
+	margin-bottom:10px;
+	padding:15px 15px 0px 0px;
+}
+
+#content h1 {
+	color: #8D8E90;
+	font-size: 1.2em;
+	cursor: default;
+	display: block;
+	margin: 10px 0 15px 0px;
+	padding: 0;
+	border-color: #ddd;
+	border-style: solid;
+	border-width: 0 0 1px 0;
+	border-bottom: 1px dashed #fff;
+}
+#content h2 {
+	color: #8D8E90;
+	font-size: 1.0em;
+	cursor: default;
+	display: block;
+	margin: 10px 0 10px 0;
+	padding: 0;
+	border-color: #ddd;
+	border-style: dashed;
+	border-width: 0 0 1px 0;
+	border-bottom: 1px dashed #fff;
+}
+
+#content a {
+	color: #8D8E90;
+	text-decoration: none;
+}
+
+#content a:hover {
+	color: #8D8Eff;
+}
+
+#content .sidebar {
+	position: relative;
+	clear:right;
+	float: right;
+	margin: .5em 0 0 .5em;
+	padding: 0 .7em .7em .7em;
+	width: 200px;
+	font-size: .9em;
+	border: 0px solid #ddd;
+	background-color:#FFFFFF;
+}
+
+#content ul li{
+   list-style-image: url(./img/icon_jiantou_12.png);
+
+}
+
+#content_news {
+	display:block;
+	clear:left;
+	float:left;
+	width: 890px;
+	background-color:#FFFFFF;
+	margin-bottom:1px;
+	padding:1px 10px 0px 0px;
+}
+
+#content_intro {
+	display:block;
+	clear:left;
+	float:left;
+	width: 890px;
+	background-color:#FFFFFF;
+	margin-bottom:10px;
+	padding:5px 15px 0px 0px;
+}
+
+#content_intro div a{
+	color: #8D8E90;
+	font-size: 1.2em;
+	display: block;
+	padding: 50px 0px 0px 0px;
+	text-decoration:none;
+	}
+
+#content_intro div a:hover{
+	color: #8D8Eff;
+	text-decoration: none;
+	}
+
+#content_intro .selected{
+	text-decoration:underline;
+}
+
+#content_intro ul li{
+   list-style-image: url(./img/icon_jiantou_8.png);
+
+}
+#content_news div a{
+	color: #8D8E90;
+	font-size: 1.2em;
+	display: block;
+	padding: 50px 0px 0px 0px;
+	text-decoration:none;
+	}
+
+#content_news div a:hover{
+	color: #8D8Eff;
+	text-decoration: none;
+	}
+
+
+button {
+	background : #ffffff;
+	border : 1px solid #ddd;
+
+}
+input {
+	border : 1px solid #ddd;
+	margin : 2px 0px 2px 0px;
+	padding : 4px 4px 4px 0px;
+	font-family: "Trebuchet MS", Verdana, Tahoma, sans-serif;
+}
+textarea {
+	border : 1px solid #ddd;
+	height : 6em;
+}
+
+#footer {
+	display: block;
+	clear: left;
+	width: 780px;
+	background-color:#FFFFFF;
+	border-color:#8D8E90;
+	border-style:solid;
+	border-width:1px 0 0 0;
+	padding-top:10px;
+	margin:10px 10px 10px 0px;
+}
+#footer a {
+	text-decoration: none;
+	color: #8D8E90;
+	border-bottom: 1px dashed #A2AFBF;
+}
+#footer a:hover {
+	border-bottom: 1px dashed #fff;
+	color: #000;
+}
